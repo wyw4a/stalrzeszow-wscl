@@ -71,6 +71,8 @@ footer{
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .gallery:hover {

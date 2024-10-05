@@ -90,5 +90,17 @@ footer{
     color: royalblue;
     padding: 5px;
 }
+.wscl-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;             
+}
+
+.wscl-logo {
+    max-width: 100%;         
+    height: auto;            
+}
+
+
 
 
