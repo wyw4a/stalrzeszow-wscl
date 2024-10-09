@@ -1,0 +1,136 @@
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+    background-color: royalblue;
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    height: auto;
+    padding: 10px;
+}
+
+.rider {
+    display: flex;
+    background-color: red;
+    width: 35%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 340px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .rider {
+        width: 85%; 
+    }
+}
+
+.right-info {
+    width: 65%;
+    background-color: whitesmoke;
+    padding: 5px;
+    color: #333;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100%; 
+}
+
+.left-photo {
+    width: 35%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-photo img {
+    border-radius: 25px;
+    height: 75%;
+}
+
+.text-rider {
+    font-size: 125%;
+    letter-spacing: 5px;
+    margin: 5px 0; 
+    text-align: center; 
+}
+
+.right-info h1 {
+    margin: 10px 0; 
+    font-size: 250%;
+}
+
+.text-rider p {
+    margin: 5px 0; 
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th,td{
+    border: 1px solid;
+    padding: 5px;
+}
+.left-text{
+    text-align: left;
+   
+}
+.next-sign{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    display: block;
+    background-color: white;
+    color: royalblue;
+    padding: 5px;
+}
+.back{
+    display: block;
+    padding: 5px;
+    background-color: white;
+    color: royalblue;
+    width: 250px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 200%;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+

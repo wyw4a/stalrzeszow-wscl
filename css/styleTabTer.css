@@ -1,0 +1,96 @@
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+    background-color: royalblue;
+    font-family: 'Exo 2', sans-serif;
+}
+footer{
+    color: white;
+    background-color: #333;
+    height: auto;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    table-layout: fixed;
+}
+td, th{
+    border: 1px solid white;
+    text-align: center;
+    padding: 3px;
+}
+.team-place{
+    background-color: gray;
+    
+}
+.team-name{
+    text-align: left;
+    width: 500px;
+}
+.next-sign{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    display: block;
+    background-color: white;
+    color: royalblue;
+    padding: 5px;
+}
+.mecz-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.logo{
+    width: 125px;
+    height: 125px;
+}
+.mecz-info-text{
+    text-align: center;
+    padding: 8px;
+    width: 45%;
+}
+.term-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+
+  }
+  .left-term, .right-term {
+    flex: 1; 
+    
+}
+.mecz-info-text-a{
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+
