@@ -3,6 +3,13 @@
     background-color: #333;
     position: sticky;
     top: 0;
+    z-index: 100; 
+}
+
+.elfsight-app-8b5a7da8-0f09-421b-b8b9-aebed51aa839 {
+    z-index: 1; 
+    position: relative;
+    margin: 3%;
 }
 
 .menu a {
